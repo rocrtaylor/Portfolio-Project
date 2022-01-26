@@ -8,6 +8,7 @@ body{
 }
 
 nav {
+    
     width: 100%;
     background-color: gray;
     display: inline-flex;
@@ -15,25 +16,3 @@ nav {
     justify-content: space-around;
     padding: 1em;
 }
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-#headline {
-    display: flex;
-    justify-content: center;
-}
-
-#imgdiv {
-    display: flex;
-    justify-content: center;
-
-}
-
-#turtle {
-    width: 90vw;
-    border-radius: 30%;
-}
-
