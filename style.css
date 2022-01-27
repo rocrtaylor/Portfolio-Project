@@ -113,10 +113,13 @@ footer {
 
 .projectFrame {
     display:flex;
-    width: 400px;
+    flex-shrink: 0;
+    max-width: 355px;
     height: 30vh;
     justify-content: flex-start;
     margin: 3em;
+    background-color: green;
+    border-radius: 25%;
 }
 
 #dr {
@@ -125,7 +128,7 @@ footer {
     background-image: url('images/');
 }
 #gru {
-    width: 50vw;
+    width: vw;
     height: 30vh;
     background-image: url('images/');
     background-repeat: no-repeat;
