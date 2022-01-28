@@ -55,7 +55,7 @@ a {
 } 
 
 .rabbit {
-    width: 50vw;
+    width: 40vw;
     border-radius: 30%;
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -63,7 +63,7 @@ a {
 
 
  .big {
-    width: 70vw;
+    width: 60vw;
     border-left: 4px solid red;
     border-right: 4px solid red;
 } 
@@ -112,9 +112,11 @@ footer {
     color: white;
 }
 
-@media (min-width: 500 ) {
-    
+.secDark {
+    color: white;
+    background-color: black;
 }
+
 
 /*///////////Projects//////////*/
 
