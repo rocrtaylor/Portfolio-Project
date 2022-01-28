@@ -1,25 +1,19 @@
 
 $(() => {
 
-    // const $div1 = $('#firstDiv');
-    // const $div2 = $('#secondDiv');
-    // const $div3 = $('#thirdDiv');
+    /////// Big Gets Bigger///////
+    const $bunny = $('.rabbit');
 
-    // const division1 = () => {
-    //     $div1.css('background-color', 'red');
-    // }
+    const bigBunny = () => {
+        $bunny.addClass('big');
+    }
 
-    // const division2 = () => {
-    //     $div2.css('background-color', 'blue').css('padding', '10px');
-    // }
+    $bunny.on('click', bigBunny)
 
-    // const division3 = () => {
-    //     $div3.css('background-color', 'green').css('padding', '20px')
-    // }
 
-    // $div1.on('click', division1);
-    // $div2.on('click', division2);
-    // $div3.on('click', division3);
+
+
+
 
 
 });
