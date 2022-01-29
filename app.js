@@ -27,7 +27,9 @@ $(() => {
         console.log('darkclick');
     })
 
-
+    $('#hotClick').click(function () {
+        $('#dark').addClass('hot');
+    })
 
 
 
