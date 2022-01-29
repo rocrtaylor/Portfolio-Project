@@ -33,7 +33,27 @@ $(() => {
 
 
 
+    //////////Project Gray Scale/////////
+
+
+    $('.projectFrame').hover(function () {
+        // $(this).css('filter', 'grayscale(0)')
+        $(this).css('filter', 'grayscale(100)');
+        // $(this).fadeOut(100);
+        // $(this).fadeIn(800);
+    });
+
+
+
+
+    $('.projectFrame').click(function () {
+        $(this).attr('style', 'grayscale()')
+    })
+
+
 });
 
-//////////Project Gray Scale/////////
+
+
+
 

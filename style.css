@@ -149,7 +149,7 @@ footer {
     margin: 3em;
     background-color: black;
     border-radius: 25%;
-    filter: grayscale();
+    /* filter: grayscale(); */
 }
 
 #dr {
