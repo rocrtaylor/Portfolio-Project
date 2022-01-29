@@ -28,7 +28,7 @@ $(() => {
     })
 
     $('#hotClick').click(function () {
-        $('#dark').addClass('hot');
+        $('#dark').addClass('hot')
     })
 
 

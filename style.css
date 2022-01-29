@@ -133,29 +133,48 @@ footer {
 .project {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
     
 }
 
 .projectFrame {
     display:flex;
     flex-shrink: 0;
-    max-width: 355px;
-    min-width: 100px;
-    height: 30vh;
-    justify-content: flex-start;
+    max-width: 320px;
+    min-width: 200px;
+    height: 250px;
+    justify-content: center;
     margin: 3em;
-    background-color: green;
+    background-color: black;
     border-radius: 25%;
 }
 
 #dr {
-    width: 50vw;
-    height: 30vh;
-    background-image: url('images/');
+    display: flex;
+    flex-shrink: 1;
+    /* width: 20vw;
+    height: 30vh; */
+    background-image: url('images/dr.evil.jpeg');
+    background-repeat: no-repeat;
 }
 #gru {
-    width: vw;
-    height: 30vh;
-    background-image: url('images/');
+    display: flex;
+    flex-shrink: 1;
+    /* width: 20vw;
+    height: 30vh; */
+    background-image: url('images/gru.png');
     background-repeat: no-repeat;
+}
+#joker {
+    display: flex;
+    flex-shrink: 1;
+    /* width: 20vw;
+    height: 30vh; */
+    background-image: url('images/joker.jpeg');
+    background-repeat: no-repeat;
+    
+}
+#bottomDiv {
+    margin-bottom: 10%;
 }
