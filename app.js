@@ -28,7 +28,8 @@ $(() => {
     })
 
     $('#hotClick').click(function () {
-        $('#dark').addClass('hot')
+        $('#dark').addClass('hot');
+
     })
 
 
@@ -37,18 +38,14 @@ $(() => {
 
 
     $('.projectFrame').hover(function () {
-        // $(this).css('filter', 'grayscale(0)')
-        $(this).css('filter', 'grayscale(100)');
-        // $(this).fadeOut(100);
-        // $(this).fadeIn(800);
+        $(this).fadeOut(3000);
+        $(this).fadeIn(3000);
     });
 
 
 
 
-    $('.projectFrame').click(function () {
-        $(this).attr('style', 'grayscale()')
-    })
+
 
 
 });
