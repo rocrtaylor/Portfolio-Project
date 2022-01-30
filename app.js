@@ -40,6 +40,7 @@ $(() => {
     $('.projectFrame').hover(function () {
         $(this).fadeOut(3000);
         $(this).fadeIn(3000);
+
     });
 
 
