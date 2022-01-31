@@ -6,6 +6,7 @@ $(() => {
 
     $('#run').click(function () {
         $('.rabbit').addClass('big')
+        $('#run').text('RUN...RABBIT...RUN!!!');
         console.log('rabbit running');
     })
 
