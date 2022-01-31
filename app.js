@@ -32,6 +32,8 @@ $(() => {
     $('#hotClick').click(function () {
         $('#dark').addClass('hot');
         $('nav').css('background-color', 'hotpink');
+        $('#darkClick').css('color', 'hotpink');
+
 
     })
 
