@@ -138,6 +138,16 @@ footer {
     
 }
 
+@media (min-width: 1200px) {
+    .project {
+        flex-direction: row;
+    }
+    .job {
+        margin: 2em;
+    }
+    
+}
+
 .projectFrame {
     display:flex;
     justify-content: center;
