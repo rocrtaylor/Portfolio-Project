@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #d0caca;
+}
+
+.clipped1 {
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.clipped2 {
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+}
+
+.container {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
