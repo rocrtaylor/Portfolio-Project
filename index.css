@@ -1,3 +1,5 @@
+/* i copied in code and ideas from other people */
+
 body {
   margin: 0;
 
@@ -26,7 +28,7 @@ body {
 }
 
 .footer {
-  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 }
 
 .container {
