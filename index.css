@@ -1,6 +1,9 @@
 body {
   margin: 0;
 
+  background-image: url("img/changes.gif");
+  /* background-size: cover; */
+
   font-family: "Rubik Glitch", cursive;
 
   font-family: "Rubik Moonrocks", cursive;
@@ -15,12 +18,19 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
-.clipped2 {
+.odd {
+  clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);
+}
+.even {
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);
+}
+
+.footer {
   clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
 }
 
 .container {
-  margin: 50px;
+  margin: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
