@@ -2,8 +2,9 @@
 
 body {
   margin: 0;
+  width: 100%;
 
-  background-image: url("img/changes.gif");
+  /* background-image: url("img/changes.gif"); */
   /* background-size: cover; */
 
   font-family: "Rubik Glitch", cursive;
